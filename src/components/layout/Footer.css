@@ -1,0 +1,18 @@
+
+footer {
+  font-family: 'Roboto Slab', serif;
+  font-size: .7em;
+  height: 3em;
+  width:100%;
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 0;
+  position: relative;
+}
+
+footer p {
+  color: white;
+  margin-right: 1em;
+}

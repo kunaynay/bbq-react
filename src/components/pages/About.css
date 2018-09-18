@@ -1,0 +1,47 @@
+.about {
+  background-image: url(../../assests/img/about.jpg);
+  height: 100%;
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  display: grid;
+  grid: auto-flow / minmax(1em, 1fr) minmax(400px, 800px) minmax(1em, 1fr);
+  padding: 10vh 0;
+}
+
+.content {
+  grid-column: 2 / 3;
+  background-color: white;
+  color: #52341e;
+  font-family: 'Roboto Slab', serif;
+}
+
+.content h1{
+  font-family: 'Abril Fatface', cursive;
+  margin: 1em 2.5em;
+  margin-left: 1.3em;
+}
+
+.imageBox {
+  margin: 2.5em;
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+}
+
+/* .written {
+  margin-left: 1em;
+} */
+
+.written p {
+  margin: 2em;
+}
+
+img {
+  align-self: center;
+  width: 40%;
+  height: auto;
+}

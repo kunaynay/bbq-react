@@ -1,0 +1,75 @@
+
+.intro {
+  background-image: url(../../assests/img/home.jpg);
+  height: 100%;
+  /* width: 100%; */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: grid;
+  grid: auto-flow / minmax(1em, 1fr) minmax(400px, 650px) minmax(1em, 1fr);
+  padding: 10vh 0;
+  text-shadow: 1px 1px 9px #000000a9;
+}
+
+.intro .logo {
+  grid-column: 2 / 3;
+}
+
+.box {
+  grid-column: 2 / 3;
+  border: 2px white solid;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+  text-align: center;
+}
+
+.box button {
+  grid-column: 2 / 3;
+  margin: 1em auto 2em;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+.box button:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  transition: 250ms;
+  cursor: pointer;
+}
+
+button:focus {outline:0;}
+
+.logo {
+  width: 250px;
+  margin: 1em auto 1em;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  padding-top: -50%;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.logo::after {
+  content: '';
+  display: block;
+  background-color: white;
+  height: 2px;
+  width: 250px;
+  margin: .5em auto;
+}
+
+
+.introText {
+  grid-column: 2 / 3;
+  margin: 0 30px 1em;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}

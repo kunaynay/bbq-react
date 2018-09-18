@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.page {
+  margin-top: 63px;
+  min-height: 100vh;
+  
+}

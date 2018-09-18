@@ -1,0 +1,78 @@
+.contact {
+  background-image: url(../../assests/img/contact.jpg);
+  height: 100%;
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  display: grid;
+  grid: auto-flow / minmax(1em, 1fr) minmax(400px, 800px) minmax(1em, 1fr);
+  padding: 10vh 0;
+}
+
+.content {
+  grid-column: 2 / 3;
+  background-color: white;
+  color: #52341e;
+  font-family: 'Roboto Slab', serif;
+}
+
+.content h1{
+  font-family: 'Abril Fatface', cursive;
+  margin: 1em 2.5em;
+  margin-left: 1.3em;
+}
+
+.content p {
+  margin: 2.5em;
+  margin-top: 1.5em;
+}
+
+.location {
+  display: flex;
+}
+
+.map {
+  /* background-color: red; */
+  flex: 50%;
+  width: 200px;
+}
+
+.map img {
+  margin: 2.5em;
+  margin-top: 1em;
+  width: 75%;
+  object-fit: fill;
+}
+
+.address {
+  /* background-color: blue; */
+  flex: 50%;
+}
+
+.content h3 {
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 2.2em;
+}
+.centered {
+  text-align: center;
+}
+button {
+  margin: 1em auto 2em;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  border: 2px solid #52341e;
+  color: #52341e;
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+button:hover {
+  border: 2px solid black;
+  color: black;
+  transition: 250ms;
+  cursor: pointer;
+}
