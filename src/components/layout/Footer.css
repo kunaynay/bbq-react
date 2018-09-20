@@ -1,9 +1,8 @@
-
 footer {
-  font-family: 'Roboto Slab', serif;
-  font-size: .7em;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.7em;
   height: 3em;
-  width:100%;
+  width: 100%;
   display: flex;
   background-color: black;
   justify-content: flex-end;
